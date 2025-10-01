@@ -1,5 +1,6 @@
 // read .env and pass values to process.env
 require("dotenv").config();
+require('module-alias/register');
 
 const express = require("express");
 const helmet = require("helmet");
@@ -63,10 +64,6 @@ app.get("/", (req, res) => {
 // start application server
 app.listen(sharedConstants.appConfig.app.port, sharedConstants.appConfig.app.host, (err) => {
     if (err) {
-        logger.error({
-            error: err,
-            message: err.message,
-        });
         console.log(`Error ${err.message}`);
     }
 

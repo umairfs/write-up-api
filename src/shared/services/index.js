@@ -16,7 +16,7 @@ const sharedServices = {
     responseServices,
     uuidServices,
     error,
-    awsServices,
+    // awsServices,
     fileServices,
 };
 
