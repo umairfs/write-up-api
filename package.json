@@ -1,0 +1,17 @@
+{
+  "name": "write-up-api",
+  "version": "1.0.0",
+  "description": "This is blogging app where people can write blogs, read blogs and also like each others blogs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "Umair Shah",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0"
+  }
+}
