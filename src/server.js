@@ -1,6 +1,7 @@
 const express = require("express");
 const connectDB = require("./config/database.js");
 const userRoutes = require("./routes/userRoutes"); // Import routes
+require("dotenv").config();
 
 let app = express();
 const PORT = 3000;
